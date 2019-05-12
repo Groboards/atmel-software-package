@@ -168,11 +168,6 @@
 #define BOARD_USB_BMATTRIBUTES \
 	USBConfigurationDescriptor_SELFPOWERED_NORWAKEUP
 
-/* =================== PIN PDMIC definition ==================== */
-
-#define BOARD_PDMIC0_ADDR PDMIC0
-#define BOARD_PDMIC0_PINS PINS_PDMIC0_IOS1
-
 /* =================== PIN ClassD definition ==================== */
 
 //#define BOARD_CLASSD0_ADDR      CLASSD0
