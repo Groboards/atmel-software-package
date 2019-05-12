@@ -1,5 +1,5 @@
 SAMA5D2_TARGETS = sama5d2-generic sama5d2-xplained sama5d2-vb-bga196 sama5d2-vb-bga289 \
-                  sama5d27-som1-ek sama5d2-ptc-ek
+                  sama5d27-som1-ek sama5d2-ptc-ek sama5d2-giantboard
 
 ifneq ($(strip $(foreach board,$(SAMA5D2_TARGETS),$(if $(call eq,$(TARGET),$(board)),$(board)))),)
 
