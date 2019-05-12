@@ -42,6 +42,8 @@
   #include "board_sama5d27-som1-ek.h"
 #elif defined(CONFIG_BOARD_SAMA5D2_PTC_EK)
   #include "board_sama5d2-ptc-ek.h"
+#elif defined(CONFIG_BOARD_SAMA5D2_GIANTBOARD)
+  #include "board_sama5d2-giantboard.h"
 #else
   #error "No board defined"
 #endif

@@ -62,6 +62,7 @@ iar-debug-script-y ?= $(TOP)/target/sama5d2/toolchain/iar/qspi.mac
 iar-flashloader-script-$(CONFIG_BOARD_SAMA5D2_XPLAINED) ?= $(TOP)/flash_loaders/sama5d2-generic/sama5d2-xplained.board
 iar-flashloader-script-$(CONFIG_BOARD_SAMA5D27_SOM1_EK) ?= $(TOP)/flash_loaders/sama5d2-generic/sama5d27-som1-ek.board
 iar-flashloader-script-$(CONFIG_BOARD_SAMA5D2_PTC_EK) ?= $(TOP)/flash_loaders/sama5d2-generic/sama5d2-ptc-ek.board
+iar-flashloader-script-$(CONFIG_BOARD_SAMA5D2_PTC_EK) ?= $(TOP)/flash_loaders/sama5d2-generic/sama5d2-giantboard.board
 endif
 
 # QSPI1 variant
@@ -84,5 +85,6 @@ target-$(CONFIG_BOARD_SAMA5D2_VB_BGA289) += target/sama5d2/board_sama5d2-vb-bga2
 target-$(CONFIG_BOARD_SAMA5D2_XPLAINED) += target/sama5d2/board_sama5d2-xplained.o
 target-$(CONFIG_BOARD_SAMA5D27_SOM1_EK) += target/sama5d2/board_sama5d27-som1-ek.o
 target-$(CONFIG_BOARD_SAMA5D2_PTC_EK) += target/sama5d2/board_sama5d2-ptc-ek.o
+target-$(CONFIG_BOARD_SAMA5D2_GIANTBOARD) += target/sama5d2/board_sama5d2-giantboard.o
 
 endif
