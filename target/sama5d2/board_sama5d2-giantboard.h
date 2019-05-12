@@ -168,15 +168,6 @@
 #define BOARD_USB_BMATTRIBUTES \
 	USBConfigurationDescriptor_SELFPOWERED_NORWAKEUP
 
-/* =================== PIN ClassD definition ==================== */
-
-//#define BOARD_CLASSD0_ADDR      CLASSD0
-//#define BOARD_CLASSD0_PINS      { PIN_CLASSD0_R0_IOS1, PIN_CLASSD0_R1_IOS1,\
-                                  //PIN_CLASSD0_R2_IOS1, PIN_CLASSD0_R3_IOS1 }
-//#define BOARD_CLASSD0_MODE      CLASSD_OUTPUT_FULL_BRIDGE
-//#define BOARD_CLASSD0_MONO      true
-//#define BOARD_CLASSD0_MONO_MODE CLASSD_MONO_MIXED
-
 /* =================== SDMMC device definition ==================== */
 
 #define BOARD_SDMMC1_PINS { PIN_SDMMC1_CD_IOS1, PIN_SDMMC1_CK_IOS1,\
